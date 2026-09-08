@@ -153,12 +153,6 @@
                 window.scrollTo(0, 0);
             }
 
-            // Ketika tombol "Mulai" diklik
-            startButton.addEventListener('click', () => {
-                const nama = nameInput.value.trim();
-                if (nama === '') {
-                    alert('Tolong tulis namanya dulu ya :)');
-                    return;
                 }
                 // Update semua span dengan nama
                 nameSpans.forEach(span => { span.textContent = nama; });
